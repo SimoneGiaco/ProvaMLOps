@@ -1,1 +1,1 @@
-
+[![Python application test with Github](https://github.com/SimoneGiaco/ProvaMLOps/actions/workflows/testingCI.yml/badge.svg)](https://github.com/SimoneGiaco/ProvaMLOps/actions/workflows/testingCI.yml)
