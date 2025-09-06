@@ -20,7 +20,8 @@
 
 4) Push all modifications to github
    -git status
-   -git add *
+   -git add * (or name of updated file)
    -git commit -m "message"
    -git push 
+   After creating and compiling the .yml file (Actions)
    -git pull
