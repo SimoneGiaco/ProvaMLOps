@@ -1,0 +1,25 @@
+1) Add new Codespaces
+   -virtualenv ~/.venv  #Crea virtual environment
+   -source ~/.venv/bin/activate 
+   Edit bashrc
+   -vim ~/.bashrc
+   Nel file bashrc
+   -#Source VirtualENV 
+    source ~/.venv/bin/activate
+
+2) Create preliminary files
+   -touch Makefile
+   -touch requirements.txt
+   -touch file.py 
+   -touch test_file.py 
+
+3) Implement install/lint/test/format o all
+   -make install (for example)
+   For package versions
+   -pip freeze | less
+
+4) Push all modifications to github
+   -git status
+   -git add *
+   -git commit -m "message"
+   -git push 
