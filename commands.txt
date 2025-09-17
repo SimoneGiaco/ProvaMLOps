@@ -24,4 +24,11 @@
    -git commit -m "message"
    -git push 
    After creating and compiling the .yml file (Actions)
-   -git pull
+   -git pull 
+   
+5) AWS commands:
+   -in AWS command ssh-keygen -t rsa
+   -cat (copy the public key)
+   -paste the ssh key in github Settings SSH & GPG keys
+   -in AWS git clone (ssh della repo github)
+   -initialize virtual env with python -m venv ~/.venv
